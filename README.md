@@ -24,6 +24,10 @@ npx skills list
 
 所有 skill 存储在 `.agents/skills/` 下，`skills-lock.json` 锁定版本，建议提交到 git 以保证团队一致性。
 
+## 开发流程
+
+详见 [典型开发流程（简易版）](docs/development-workflow.md) / [详细版](docs/development-workflow-detailed.md)。
+
 ## 启用 SessionStart Hook
 
 skills 需要 SessionStart hook 来引导自动触发。将以下配置添加到 `.claude/settings.json` 或 `.claude/settings.local.json`：
